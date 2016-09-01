@@ -1,0 +1,235 @@
+\documentclass[12pt]{article}
+
+\usepackage{sbc-template}
+
+\usepackage{graphicx,url}
+
+%\usepackage[brazil]{babel}   
+\usepackage[latin1]{inputenc}  
+
+     
+\sloppy
+
+\title{Instructions for Authors of SBC Conferences\\ Papers and Abstracts}
+
+\author{Lucas Takeshi R. Palma\inst{1}, Márcio Sakamoto Shibao\inst{1}}
+
+
+\address{Caelum - Ensino e Inovação\\
+  CEP 04101-300 -- São Paulo -- SP -- Brasil
+  \email{\{lucas.takeshi,marcio.shibao\}@caelum.com.br}
+}
+
+\begin{document} 
+
+\maketitle
+
+\begin{abstract}
+  
+\end{abstract}
+     
+\begin{resumo} 
+  
+\end{resumo}
+
+\section{Indrodução}
+
+O conceito sobre o que é a agilidade surgiu a partir do Manifesto Ágil \cite{manifesto:01}. Os seus quatro valores e doze princípios são essenciais para que todo time que quer ser ágil, já que incentivam essas equipes a melhorar a qualidade do trabalho executado e atender às expectativas dos clientes, ainda que essas sofram constantes mudanças. 
+
+Apesar de cada princípio ter a sua importância, aquele que estimula o time a estar em constante evolução em todos os aspectos é a melhoria contínua:
+
+\begin{quote}
+  \textit{``At regular intervals, the team reflects on how to become more effective, then tunes and adjusts its behavior accordingly.''}\cite{manifesto:01}
+\end{quote}
+
+É comum durante o desenvolvimento de um projeto que as pessoas passem a adotar padrões e vicios de como trabalhar no seu time. Muitas vezes eles sequer são percebidos, tornando-se parte da cultura da equipe e não sendo discutidos. Alguns desses costumes podem ocorrer para reduzir atritos entre os integrantes, aumentar a produtividade em algum processo, determinar um formato de comunicação, entre outros. Isso eventualmente cria uma zona de conforto para as pessoas trabalharem no seu dia a dia.
+
+No entanto, só porque um padrão foi repetido diversas vezes não significa que ele é o melhor possível. O princípio da melhoria contínua discute exatamente o ponto de que sempre há espaço para as pessoas e os times evoluirem. Não existe uma forma perfeita de se trabalhar. Aqueles que estão dispostos a aceitar este fato e promover este princípio a longo prazo vão, eventualmente, aumentar a qualidade do produto, entregar mais valor ao cliente e melhorar o ambiente de trabalho. Estas equipes acabam se destacando em relação aos demais que ficam parados nos mesmos padrões de trabalho.
+
+Já existem diversos estudos sobre o desenvolvimento de projetos que abordam como promover a melhoria contínua. Um bom exemplo é o Lean, a filosofia por trás do modelo de produção da Toyota \cite{ohno:88}. Ela apresenta o conceito do Kaizen, que defende que todas as pessoas, independente da sua posição na empresa, são responsáveis por pensar e agir para melhorar continuamente o processo e o produto da companhia.
+
+Nos métodos ágeis, a prática que mais se destaca atualmente é a retrospectiva. Segundo Derby e Larsen \cite{retrospectives:06}, a retrospectiva é uma reunião especial em que o time se junta para investigar e melhorar seus métodos - um tempo dedicado à aprendizagem, que funciona como um catalisador de mudanças e ações. Diferente das tradicionais lições aprendidas, esta prática  foca tanto no processo de desenvolvimento, quanto nas questões humanas do projeto.
+
+\subsection{Desafios da retrospectiva}
+
+Já existem várias publicações que apresentam diversos formatos para organizar esta reunião. Um formato muito conhecido na comunidade é o apresentado por  Derby e Larsen \cite{retrospectives:06} no livro Agile Retrospectives:
+
+\begin{enumerate}
+  \item Preparar o terreno: 5\% do tempo.
+  \item Coletar os dados: 30\% a 50\% do tempo.
+  \item Gerar ideias: 20\% a 30\% do tempo.
+  \item Decidir o que fazer: 15\% a 20\% do tempo.
+  \item Encerrar a retrospectiva: 10\% do tempo.
+\end{enumerate}
+
+Para realizar estas etapas, escolhe-se algum modelo de retrospectiva para ser usado, conhecido como atividade. Vários livros, artigos e sites fornecem catálogos com diversas atividades conhecidas e usadas pelos times ágeis, como o Fun Retrospectives \cite{fun:14}, Retrospective Handbook \cite{handbook:13} e o Agile Retrospectives \cite{retrospectives:06}.
+
+Mesmo com a grande quantidade de material disponível a respeito desta reunião e o seu amplo uso pelos times ágeis, a aplicação da retrospectiva pode não apresentar os resultados desejados. Trata-se de um encontro que envolve uma grande discussão entre os integrantes do time a respeito do processo de desenvolvimento, do projeto e de questões pessoais. Então dependendo do contexto do time, ela pode se tornar uma reunião complexa.
+
+Alguns dos problemas enfrentados na reunião são:
+
+\begin{enumerate}
+  \item Ultrapassar a duração programada para a reunião.
+  \item Falta de intimidade entre integrantes para discussões profundas e, algumas vezes, do ambito pessoal.
+  \item Reuniões em que as discussões foram superficiais e as ações encontradas foram de pouco valor.
+  \item Falta de engajamento dos integrantes em participar da retrospectiva por não perceber valor na reunião ou por conta de algum desgaste que as pessoas começaram a ter com ela.
+  \item Dificuldade para agendar a data para realizar o encontro com todos os integrantes, ainda mais para times que a realizam periodicamente em sprints curtos.
+\end{enumerate}
+
+Já existem algumas estratégias de como estes desafios podem ser enfrentados. Um exemplo muito usado é o facilitador, que é responsável por planejar a reunião, controlar o tempo de cada atividade, manter todos focados nas atividades e auxiliar o time a chegar em bons resultados. No entanto, dada a grande complexidade da reunião, alguns dos problemas eventualmente acabam voltando a acontecer mesmo adotando providências.
+
+Outra estratégia usada é que no momento de encerra a reunião, o time deveria realizar uma pequena retrospectiva da retrospectiva. Mesmo assim, os mesmos problemas podem acontecer nesta breve reunião, como a discussão de pouco valor e adoção de ações superficiais. Então é perceptível que mesmo a retrospectiva ainda pode passar por melhorias contínuas.
+
+\subsection{A retrospectiva em um contexto global}
+
+  Quando o Manifesto Ágil \cite{manifesto:01} surgiu em 2001, a grande maioria dos times trabalhavam no mesmo lugar. Era difícil encontrar casos de equipes distribuídas em diversas regiões, até por conta da limitação dos recursos na época, como a internet. Então muitas das práticas e frameworks ágeis que surgiram tiveram como base apenas cenários de times locais, ou seja, todos os integrantes trabalhando no mesmo espaço físico.
+  
+  A estrutura da retrospectiva não foi diferente. Uma das formas mais conhecidas e adotadas para realizar esta reunião é juntando todos os integrantes do time no mesmo espaço, o facilitador desenha a atividade em uma lousa ou quadro e os integrantes participam colando post-its com problemas ou ações que eles pensaram. Este formato funciona muito bem para times em que seus integrantes trabalham no mesmo lugar.
+  
+  No entanto, com o passar dos anos desde o surgimento do Manifesto Ágil e da retrospectiva, é normal que tanto o mercado quanto a academia tenham mudado. Com o aumento da globalização e a evolução da internet, é comum encontrar diversas empresas investindo em times distribuídos, com os integrantes trabalhando em diferentes regiões. Como foi apresentado pela Version One \cite{version:12}\cite{version:15}, o percentual de participantes que tem pelo menos um time ágil distribuído em 2012 era de 35\%, enquanto que em 2015 os números já chegam em 82\%. 
+  
+  Nota-se que esta estrutura de time está se tornado uma tendência na agilidade. Uma hipótese para este crescimento pode ser um reflexo do sucesso que a agilidade teve para times locais. Já é comprovado que estas equipes apresentam melhores resultados do que aqueles que utilizam de outras metodologias e práticas ao invés da agilidade \cite{chaos:15}. Com o surgimento de mais times distribuídos, é de se esperar que estes tentassem repetir o sucesso da agilidade para a sua estrutura de trabalho \cite{gsd:09}.
+  
+  O problema é que não é possível simplesmente copiar muitas das práticas conhecidas na comunidade. Por exemplo, o formato clássico da retrospectiva de reunir as pessoas numa sala com uma lousa e post-it é impossível a partir de momento que cada integrante está em um estado ou país diferente. Desta forma, muitas das práticas precisaram de adaptações para este novo cenário que estava surgindo. Consequentemente antigos problemas acabaram aparecendo e novos desafios também surgiram. No entanto, diferente dos antigos problemas que já são estudados a muitos anos, estes novos obstáculos e as ações usadas para enfrentá-los ainda não são amplamente conhecidos e divulgados na comunidade.
+
+  \subsection{O estado atual da retrospectiva}
+
+Mesmo com a grande quantidade de material disponível sobre a retrospectiva na comunidade e a grande aceitação que esta prática possui no mercado, não significa que ela é a única prática de melhoria contínua que existe. Então quantos times de fato estão usando a retrospectiva atualmente? 
+
+Já existem diversas pesquisas na comunidade publicadas anualmente que demonstram o estado atual da agilidade. Dois artigos de grande influência neste quesito são a State of Agile Report \cite{version:12}\cite{version:15} e a State of Scrum Report \cite{scrum:13}\cite{scrum:15}.
+
+Segundo a State of Agile Report o número de times ágeis que usam a retrospectiva vem crescendo nos últimos anos, sendo 64\% em 2011 e 74\% em 2015. Atualmente é a quarta prática ágil mais utilizada, ficando atrás de daily standup, prioritized backlogs e short iterations.
+
+Na pesquisa realizada pela State of Scrum Report, também se nota um crescimento no uso da retrospectiva. Em 2013 o percentual era de 62\%, enquanto que em 2015 é de 81\%. 
+
+Ambas as pesquisas apontam que a retrospectiva realmente é uma das práticas ágeis mais usadas na comunidade. No entanto, há um percentual considerável de times não a utilizam. Então que outras práticas de melhoria são usadas pelos times ágeis que não adotaram a retrospectiva? Estes times realmente aplicam alguma forma de melhoria contínua? E será que a retrospectiva realmente funciona? Como que os times tem realizado a retrospectiva nos útlimos anos?
+
+Investigando alguns artigos é possível encontrar algumas referências que tentam responder em parte algumas dessas questões. Um exemplo apresentado por Berczuk \cite{berczuk:07} é de um time que realiza uma pequena retrospectiva em conjunto com o review . Além disso, a reunião sempre usa o mesmo formato para discutir o que está dando certo e o que pode ser melhorado.
+
+Uma hipótese defendida por Poussard \cite{poussaard:14} é que se um time tende a repetir o mesmo formato de retrospectiva, geralmente surgem problemas de falta de engajamento entre os integrantes e as discussões começam a ter pouco valor. Então adotar a estratégia apresentada por Berczuk pode reduzir a qualidade da retrospectiva.
+
+Vax e Michaud \cite{vax:08} apresentam outro formato de retrospectiva adaptado por um time distribuído em que seus integrantes estão em diferentes timezones. A ideia mostrada pelos autores é que a equipe de cada uma das regiões realiza a reunião da forma tradicional localmente e depois os resultados são divulgados entre todos em um sistema. No entanto, apenas o Scrum Master e os líderes técnicos discutem os resultados coletados.
+
+Uma pesquisa feita por Hossain, Babar e Paik \cite{gsd:09} descobriu que muitos times distribuídos encontram fortes barreiras culturais e sociais. Além disso, os diferentes fuso horários, a falta de ferramentas de comunicação descentes e a baixa qualidade da internet em algumas regiões dificultam a realização de uma reunião longa e síncrona entre os integrantes. Por isso, a pesquisa aponta que estas equipes tem adaptado a reunião para que ela seja feita de forma assíncrona, adicionando comentários e os resultados em Wikis compartilhadas. 
+
+Estes foram alguns dos resultados encontrados na literatura a respeito da retrospectiva. A maior parte deste material apenas mostra o cenário de um time e descreve como é o seu processo, eventualmente comentando como realizam a retrospectiva. Aqueles que não utilizam este formato de reunião não demonstram como é feito o processo de melhoria contínua. Então muitas das perguntas ficaram em aberto apenas olhando o material disponínel sobre o assunto.
+
+\section{Pesquisa} \label{sec:firstpage}
+
+Tentando responder as questões levantadas anteriormente, realizou-se uma primeira pesquisa buscando responder se a retrospectiva realmente promove a melhoria contínua nos times e que outras práticas de melhoria contínua são aplicadas atualmente.
+
+A parte inicial da pesquisa foca em questões gerais, como o número de integrantes, a distribuição da equipe e quais os desafios enfrentados. Elas servem para determinar em qual contexto cada uma das equipes respondeu o questionário. Depois são investigadas as particularidades sobre qual prática cada time utiliza para solucionar os problemas apontados e promover a melhoria contínua.
+
+Como a retrospectiva ainda é utilizada por diversos métodos ágeis e muitos times, parte do questionário é voltado apenas para as equipes que realizam esta reunião. As questões desta etapa buscam encontrar como cada time estrutura a reunião, quais os principais problemas que as equipes enfrentam na retrospectiva e a relação deles com a estrutura de cada time.
+
+Além disso, os artigos encontrados previamente já indicam que, embora nem todos os times façam a retrospectiva, eles ainda adotam alguma outra forma de promover a melhoria contínua. A última parte da pesquisa foca justamente nesses times que utilizam práticas diferentes da retrospectiva. Para estes casos, o questionário procura quais são as outras opções que são adotadas, como é o processo para realizar cada uma e os motivos que levaram o time a usar uma prática diferente da retrospectiva.
+
+\section{Resultados}
+
+A pesquisa ficou disponível durante 1 mês e foram obtidas 44 respostas. A pesquisa era composta de respostas quantitativas, com o intuito de coletar os problemas enfrentados e a utilização de retrospectivas, e qualitativas, que buscavam entender como os times resolviam seus problemas. Todas as questões da pesquisa podem ser encontradas neste site <colocar o link aqui>.
+
+\subsection{Resultados das perguntas quantitativas}
+
+A primeira parte da pesquisa indicou que os problemas enfrentados pelos times possuem uma relação com a estrutura da equipe. A separação foi feita em: 
+
+\begin{itemize}
+  \item Local: times que estão no mesmo ambiente
+  \item Distribuído no mesmo timezone: times que não estão no mesmo ambiente, mas no mesmo fuso horário.
+  \item Distribuído em timezones diversos: times que não estão no mesmo ambiente e estão distribuídos em diferentes fuso horários.
+\end{itemize}
+
+Como cada uma das estruturas possui as suas singularidades, os desafios enfrentados potencialmente estão relacionados com a distribuição dos integrantes. A relação desses dois dados segue na tabela abaixo.
+
+\begin{figure}[ht]
+\centering
+\includegraphics[width=1\textwidth]{problemasTime.png}
+\end{figure}
+
+O desafio mais enfrentado por times ágeis é a comunicação, que apareceu em 54\% das respostas. A estrutura que apresentou maiores dificuldades com a comunicação foi a de times distribuídos em timezones diversos com 66\%. Já os percentuais dos locais e distribuídos no mesmo timezone foram de 55\% e 45\%, respectivamente.
+
+Outro desafio no qual os times distribuídos em diversos fusos horários aparentam ter mais dificuldades é o relacionamento. Aproximadamente 33\% dessas equipes relataram que passam por esse problema, contra apenas 14\% dos locais e 9\% dos distribuídos no mesmo timezone.
+
+Apesar dessa distribuição ter mais problemas de comunicação e relacionamento, esses times possuem o melhor rendimento entre as três estruturas. Apenas 16\% apresentaram problemas de produtividade. Já para os times distribuídos no mesmo timezone o valor chegou a 36\%, ou seja, mais do que o dobro. E aqueles que mais sofrem com este problema são os locais com 66\%.
+
+Por fim, os times distribuídos em timezones diversos foram os que mais apresentaram outros problemas. Uma dificuldade apontada foi a de sincronizar todos os seus membros. Como artigos mencionados anteriormente já apontavam, este problema ocorre muito por conta dos diferentes horários dos integrantes e eventuais limitações técnológicas como internet de baixa qualidade.
+
+Depois de encontrar os desafios enfrentados por cada um dos times ágeis, os próximos resultados demonstram como a melhoria contínua é promovida e os problemas são resolvidos.
+
+\begin{figure}[ht]
+\centering
+\includegraphics[width=1\textwidth]{retrospectiva.png}
+\end{figure}
+
+Os resultados foram próximos dos obtidos pela State of Agile Report \cite{version:15} e State of Scrum Report \cite{scrum:15}, dado que aproximadamente 70\% dos participantes responderam que realizam retrospectivas. No entanto, é possível notar que a retrospectiva não é uma unanimidade para  todos os formatos das equipes. Os times locais e distribuídos no mesmo timezone de fato são os que mais utilizam desta reunião. Em contrapartida, apenas 16\% dos distribuídos em timezones diversos realizam retrospectivas.
+
+Dentre os times que realizam a retrospectiva, uma questão que é pouco abordada pelas pesquisas e artigos na comunidade é se a retrospectiva realmente auxilia os times a resolver seus problemas. Para investigar esta questão, é possível  fazer uma relação entre os problemas apontados e o fato do time realizar ou não a retrospectiva.
+
+\begin{figure}[ht]
+\centering
+\includegraphics[width=1\textwidth]{retrospectivaValeAPena.png}
+\end{figure}
+
+Os resultados mostram que a retrospectiva ajuda os times ágeis. Os percentuais entre aqueles que a utilizam foram inferiores em relação aos demais para os problemas de comunicação, relacionamento e outros.
+
+Outro fator a se notar é a quantidade de respostas na opção  ''Nenhum''. Apenas 7\% dos times que não usam a retrospectiva assinalaram esta opção, enquanto os que a realizam apresentaram um resultado de 19\%. Apesar de parecer um ponto positivo não ter nenhuma dificuldade, é suspeito que um time não tenha nem mesmo um único problema. Pode ser um indicativo de que estes são os times com os maiores problemas, já que é mais provável que eles existam, mas as pessoas não estão cientes deles.
+
+O único resultado que contraria as perspectivas é a produtividade. Os times que não realizam retrospectivas apresentaram melhores resultados neste quesito com um percentual de 46\%. Um hipótese para estes números é por conta da maior parte dos times que responderam ''Não'' serem da categoria times distribuídos em timezones diversos. Como apresentado anteriormente, eles mostraram os melhores resultados em termos de produtividade, o que pode ter influenciado o resultado mostrado acima.
+
+Nota-se pela pesquisa que as retrospectivas têm de fato auxiliado os times no processo de melhoria contínua. No entanto, é notável que ainda há espaço para esta reunião melhorar e ajudar ainda mais as equipes. Desta forma, os próximos resultados mostram em quais pontos os times enfrentam mais dificuldades durante a retrospectiva.
+
+\begin{figure}[ht]
+\centering
+\includegraphics[width=1\textwidth]{problemasRetrospectiva.png}
+\end{figure}
+
+Os principais desafios enfrentados são ultrapassar a duração, falta de engajamento das pessoas e discussões de pouco valor.
+
+Como visto anteriormente, a hipótese feita por Poussard \cite{poussaard:14} é que os times sofrem com a falta de engajamento e as discussões de pouco valor por não variarem as atividades que utilizam nas retrospectivas. Através da pesquisa é possível verificar esta suspeita através da correlação entre os desafios com o fato do time variar ou não as atividades. 
+
+\begin{figure}[ht]
+\centering
+\includegraphics[width=1\textwidth]{variarRetrospectiva.png}
+\end{figure}
+
+No geral, os resultados foram próximos entre aqueles que variam ou não as atividades. No entanto,, alguns deles confirmaram as expectativas, como o fato de que equipes que não variam as retrospectivas têm mais problemas de discussões de pouco valor. Estes times tiveram um percentual de 45\% para este desafio, enquanto para aqueles que variam seus formatos de retrospectiva o resultado foi de 37\%.
+
+Os times que variam suas atividades também aparentam sofrer menos com falta de intimidade entre integrantes em relação às equipes que não variam, pois os resultados foram de 12\% e 27\%, respectivamente.
+
+Para a falta de engajamento das pessoas os números foram parecidos e os times que responderam ''Não'' tiveram um percentual um pouco melhor, contrariando as expectativas.
+
+Apesar da pesquisa apontar que somente alternar as atividades não é suficiente, incentivar os times a fazer isso pode ajudá-los a enfrentar alguns dos desafios desta reunião. Outra forma conhecida para diminuir os problemas em uma retrospectiva é o uso do facilitador. A correlação entre os desafios com o uso ou não do facilitador segue na tabela abaixo.
+
+
+\begin{figure}[ht]
+\centering
+\includegraphics[width=1\textwidth]{facilitador.png}
+\end{figure}
+
+Percebe-se que é quase unânime o uso do facilitador nas retrospectivas. São 17 dos 19 times que responderam a pesquisa que usam deste recurso, ou seja, 89\% das equipes.
+
+Como apenas dois times responderam que não têm um facilitador responsável por suas reuniões, não é possível encontrar padrões de desvio entre o grupo maior e esse par de respostas. Porém, nota-se que ambas as equipes que responderam que "Não" reportaram problemas em ultrapassar a duração da reunião -- é possível que o uso desta técnica ajude no melhor controle do tempo da reunião.
+
+Mesmo usando o facilitador, aproximadamente metade dos times tem problemas como ultrapassar a duração (47\%), discussões de pouco valor (47\%) e falta de engajamento das pessoas (52\%). Logo, somente com uma pessoa facilitando a reunião não garante que as retrospectivas serão bem-feitas.
+
+\subsection{Resultados das perguntas qualitativas}
+
+Para complementar as informações obtidas com as respostas quantitativas, a pesquisa também possui questões qualitativas que se relacionam com os dados anteriores, principalmente com relação aos times que não fazem retrospectiva. 
+  
+Uma das perguntas questionava quais os motivos levaram a equipe não usar a retrospectiva. Esta pergunta serviu para investigar o porquê da baixo número de equipes geograficamente distribuídas fazendo retrospectiva. Como os resultados anteriores apontam problemas de sincronização nestes times, uma hipótese era que os times não faziam a reunião devido à impossibilidade de reunir todos os membros para uma discussão em algum horário. Além disso, alguns artigos encontrados pressupõem que somente os gerentes e líderes de projeto participavam das discussões e decidiam o que seria feito.
+
+Duas respostas mostraram que uma razão para o time não realizar a retrospectiva é devido a falta de tempo, já que ambos alegaram que a equipe está passando por período de alta demanda. Outros dois participantes responderam que o motivo vem a partir de uma decisão dos gestores do projeto. E uma destas respostas também revelou que o gerente não possui experiência com metodologias ágeis. O último participante também indicou que não é cultura da empresa utilizar desta prática. 
+
+Somente com estas informações não é possível tirar conclusões definitivas sobre o porquê deles não realizarem retrospectivas. Uma hipótese é que esses times ainda não possuem experiência suficiente com métodos ágeis e também não dispõem de pessoas engajadas em agilidade que queiram aplicar retrospectivas como forma de inspecionar problemas. Logo, eles acabam não vendo o valor da reunião e o retorno que ela proporciona. Essa hipótese é reforçada a partir das respostas sobre como os problemas nesses times são discutidos e resolvidos, quem participa das discussões e quem aplica as mudanças para solucionar o problema.
+
+Os times que responderam anteriormente que não fazem retrospectivas devido a alta demanda indicaram que realizam conference calls entre os membros do time para debater sobre os problemas do time. Em geral, essas reuniões não tem um horário previsto para acontecer e todos os integrantes participam. Percebe-se uma inconsistência nas respostas destes participantes, pois ambos alegam que o time não possui tempo para realizar a retrospectiva, mas eles conseguem mobilizar todos os membros para uma reunião onde serão discutidos os problemas.
+
+Da mesma forma, também houve inconsistências nas respostas dos outros times que apontaram que a razão para não realizarem a reunião é por conta de uma decisão dos gestores ou por não ser parte da cultura da empresa. Estes times conversam via chat para discutir os seus problemas e todos os membros que possuem disponibilidade participam ativamente do debate. Caso as pessoas encontrem uma solução interessante para o problema, ela é informada para o restante da equipe e para o gerente do projeto. 
+
+Logo, a forma como esses times promovem melhoria contínua é muito semelhante à retrospectiva. Provavelmente a única diferença é que algumas das atividades utilizadas em retrospectivas motivam o time a conversar sobre o futuro. Nas respostas que os participantes deram quando questionados de que forma o time identifica os problemas futuros e trabalha para evitá-los, a grande maioria indicou que não possuem esse tipo de preocupação. Apenas um participante comentou que os integrantes passam por essa discussão, mas focada apenas no código da aplicação. Ou seja, eles não possuem uma preocupação em debater sobre o futuro do projeto e do time.
+
+Como nenhum dos participantes mencionou o nome de outra prática de melhoria contínua, como o Kaizen ou Hansei, não é possível concluir se estas reuniões são baseadas em algum outro tipo de prática ágil diferente da retrospectiva. Além disso, nota-se que as decisões não são tomadas somente pelos gerentes, coachs e líderes de projeto, mas sim por todos os integrantes da equipe. Desta forma, não existem grandes impeditivos para mesmo os times distribuídos realizarem suas reuniões seguindo os preceitos da retrospectiva.
+
+\bibliographystyle{sbc}
+\bibliography{sbc-template}
+
+\end{document}

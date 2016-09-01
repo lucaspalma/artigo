@@ -1,0 +1,85 @@
+\begin{thebibliography}{}
+
+\bibitem[Beck et~al. 2001]{manifesto:01}
+Beck, K. et~al. (2001).
+\newblock Manifesto for agile software development.
+\newblock \url{http://www.agilemanifesto.org}.
+
+\bibitem[Berczuk 2007]{berczuk:07}
+Berczuk, S. (2007).
+\newblock Back to basics: The role of agile principles in success with an
+  distributed scrum team.
+\newblock {\em Agile Conference}.
+
+\bibitem[Caroli and Caetano 2014]{fun:14}
+Caroli, P. and Caetano, T. (2014).
+\newblock {\em Fun Retrospectives: Activities and ideas for making agile
+  retrospectives more engaging}.
+\newblock Leanpub.
+
+\bibitem[Derby and Larsen 2006]{retrospectives:06}
+Derby, E. and Larsen, D. (2006).
+\newblock {\em Agile Retrospectives: Making Good Teams Great}.
+\newblock The Pragmatic Bookshelf, Dallas.
+
+\bibitem[Hossain et~al. 2009]{gsd:09}
+Hossain, E., Babar, M., and Paik, H. (2009).
+\newblock Using scrum in global software development: A systematic literature
+  review.
+\newblock {\em 4th IEEE International Conference on Global Software
+  Engineering}.
+
+\bibitem[Kua 2013]{handbook:13}
+Kua, P. (2013).
+\newblock {\em The Retrospective Handbook: A guide for agile teams}.
+\newblock Leanpub.
+
+\bibitem[Ohno and Bodek 1988]{ohno:88}
+Ohno, T. and Bodek, N. (1988).
+\newblock {\em Toyota production system: beyond large-scale production}.
+\newblock Productivity Press.
+
+\bibitem[Poussaard 2014]{poussaard:14}
+Poussaard, P. (2014).
+\newblock Classifying retrospectives to get the best of it.
+\newblock
+  \url{http://www.benlinders.com/2014/guest-blog-classifying-retrospectives-to-get-the-best-of-it}.
+
+\bibitem[{Scrum Alliance} 2013]{scrum:13}
+{Scrum Alliance} (2013).
+\newblock The state of scrum: Benchmarks and guidelines.
+\newblock
+  \url{https://www.scrumalliance.org/why-scrum/state-of-scrum-report/2013-state-of-scrum},
+  Westminster.
+
+\bibitem[{Scrum Alliance} 2015]{scrum:15}
+{Scrum Alliance} (2015).
+\newblock The 2015 state of scrum report.
+\newblock
+  \url{https://www.scrumalliance.org/why-scrum/state-of-scrum-report/2015-state-of-scrum},
+  Westminster.
+
+\bibitem[{Standish Group} 2015]{chaos:15}
+{Standish Group} (2015).
+\newblock The chaos report.
+
+\bibitem[Vax and Michaud 2008]{vax:08}
+Vax, M. and Michaud, S. (2008).
+\newblock Distributed agile: Growing a practice together.
+\newblock {\em Toronto, In Proceedings of Agile Conference}.
+
+\bibitem[{Version One} 2012]{version:12}
+{Version One} (2012).
+\newblock 7th annual state of agile survey.
+\newblock
+  \url{www.versionone.com/pdf/7th-Annual-State-of-Agile-Development-Survey.pdf},
+  Alpharetta, Georgia.
+
+\bibitem[{Version One} 2015]{version:15}
+{Version One} (2015).
+\newblock 10th annual state of agile report.
+\newblock
+  \url{https://versionone.com/pdf/VersionOne-10th-Annual-State-of-Agile-Report.pdf},
+  Alpharetta, Georgia.
+
+\end{thebibliography}
