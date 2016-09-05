@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.9.1)  1 SEP 2016 19:21
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.9.1)  5 SEP 2016 15:28
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -258,10 +258,7 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <13> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 35.
  [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2] [3]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [4]
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2] [3] [4]
 LaTeX Font Info:    Try loading font information for OMS+ptm on input line 134.
 
 
@@ -302,36 +299,36 @@ Underfull \hbox (badness 1348) in paragraph at lines 165--166
 port
  []
 
-[6 <./problemasTime.png> <./retrospectiva.png>]
-<retrospectivaValeAPena.png, id=34, 1442.38875pt x 292.09125pt>
+[6 <./problemasTime.png>]
+<retrospectivaValeAPena.png, id=33, 1442.38875pt x 292.09125pt>
 File: retrospectivaValeAPena.png Graphic file (type png)
 
 <use retrospectivaValeAPena.png>
 Package pdftex.def Info: retrospectivaValeAPena.png used on input line 171.
 (pdftex.def)             Requested size: 426.79135pt x 86.42467pt.
 
-<problemasRetrospectiva.png, id=35, 1508.63625pt x 251.94125pt>
+<problemasRetrospectiva.png, id=34, 1508.63625pt x 251.94125pt>
 File: problemasRetrospectiva.png Graphic file (type png)
 
 <use problemasRetrospectiva.png>
 Package pdftex.def Info: problemasRetrospectiva.png used on input line 186.
 (pdftex.def)             Requested size: 426.79135pt x 71.27348pt.
- [7 <./retrospectivaValeAPena.png> <./problemasRetrospectiva.png>]
-<variarRetrospectiva.png, id=42, 1607.00375pt x 376.40625pt>
+ [7 <./retrospectiva.png> <./retrospectivaValeAPena.png>] <variarRetrospectiva.
+png, id=41, 1607.00375pt x 376.40625pt>
 File: variarRetrospectiva.png Graphic file (type png)
 
 <use variarRetrospectiva.png>
 Package pdftex.def Info: variarRetrospectiva.png used on input line 197.
 (pdftex.def)             Requested size: 426.79135pt x 99.96542pt.
 
-<facilitador.png, id=43, 1604.99625pt x 300.12125pt>
+<facilitador.png, id=42, 1604.99625pt x 300.12125pt>
 File: facilitador.png Graphic file (type png)
  <use facilitador.png>
 Package pdftex.def Info: facilitador.png used on input line 213.
 (pdftex.def)             Requested size: 426.79135pt x 79.80652pt.
 
-[8 <./variarRetrospectiva.png> <./facilitador.png>] [9] [10]
-(./sbc-template.bbl
+[8 <./problemasRetrospectiva.png> <./variarRetrospectiva.png>] [9 <./facilitado
+r.png>] [10] (./sbc-template.bbl
 Underfull \hbox (badness 10000) in paragraph at lines 43--47
 []\OT1/ptm/m/n/12 Poussaard, P. (2014).  Clas-si-fy-ing ret-ro-spec-tives to ge
 t the
@@ -367,13 +364,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 56--61
  /
  []
 
-
+[11]
 Underfull \hbox (badness 10000) in paragraph at lines 79--84
 \OT1/pcr/m/n/12 com / pdf / VersionOne-[]10th-[]Annual-[]State-[]of-[]Agile-[]R
 eport . pdf$\OT1/ptm/m/n/12 ,
  []
 
-) [11] (./sbc-template.aux)
+) [12] (./sbc-template.aux)
 
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
@@ -381,7 +378,7 @@ LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 Here is how much of TeX's memory you used:
  2763 strings out of 493304
  39475 string characters out of 6139872
- 107017 words of memory out of 5000000
+ 108017 words of memory out of 5000000
  6163 multiletter control sequences out of 15000+600000
  21548 words of font info for 46 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
@@ -394,10 +391,10 @@ w/helvetic/uhvb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb
 8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/s
 hare/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/te
 xmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on sbc-template.pdf (11 pages, 445502 bytes).
+Output written on sbc-template.pdf (12 pages, 447273 bytes).
 PDF statistics:
- 86 PDF objects out of 1000 (max. 8388607)
- 52 compressed objects within 1 object stream
+ 89 PDF objects out of 1000 (max. 8388607)
+ 54 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  31 words of extra memory for PDF output out of 10000 (max. 10000000)
 
