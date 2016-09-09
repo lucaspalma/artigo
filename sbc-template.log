@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.9.1)  9 SEP 2016 14:39
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.9.1)  9 SEP 2016 15:25
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -284,11 +284,11 @@ File: ot1phv.fd 2001/06/04 scalable font definitions for OT1/phv.
 LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <10> not available
 (Font)              Font shape `OT1/phv/b/n' tried instead on input line 69.
 
-<retrospectiva.png, id=18, 837.1275pt x 494.84875pt>
+<retrospectiva.png, id=18, 1270.7475pt x 183.68625pt>
 File: retrospectiva.png Graphic file (type png)
  <use retrospectiva.png>
 Package pdftex.def Info: retrospectiva.png used on input line 77.
-(pdftex.def)             Requested size: 192.0548pt x 113.52588pt.
+(pdftex.def)             Requested size: 341.43437pt x 49.35489pt.
 
 [3 <./problemasTime.png>]
 <retrospectivaValeAPena.png, id=24, 1442.38875pt x 292.09125pt>
@@ -313,7 +313,7 @@ File: variarRetrospectiva.png Graphic file (type png)
 Package pdftex.def Info: variarRetrospectiva.png used on input line 108.
 (pdftex.def)             Requested size: 341.43437pt x 79.97234pt.
  [5 <./variarRetrospectiva.png>]
-(./sbc-template.bbl [6]
+(./sbc-template.bbl
 Underfull \hbox (badness 10000) in paragraph at lines 33--37
 []\OT1/ptm/m/n/12 Poussaard, P. (2014).  Clas-si-fy-ing ret-ro-spec-tives to ge
 t the
@@ -343,7 +343,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 39--43
 oogle . com / file / d /
  []
 
-
+[6]
 Underfull \hbox (badness 10000) in paragraph at lines 57--62
 \OT1/pcr/m/n/12 com / pdf / VersionOne-[]10th-[]Annual-[]State-[]of-[]Agile-[]R
 eport . pdf$\OT1/ptm/m/n/12 ,
@@ -370,7 +370,7 @@ w/helvetic/uhvb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb
 8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/s
 hare/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/te
 xmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on sbc-template.pdf (7 pages, 376807 bytes).
+Output written on sbc-template.pdf (7 pages, 359754 bytes).
 PDF statistics:
  72 PDF objects out of 1000 (max. 8388607)
  44 compressed objects within 1 object stream
