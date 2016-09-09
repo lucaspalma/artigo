@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.9.1)  9 SEP 2016 17:06
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.9.1)  9 SEP 2016 17:37
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -113,6 +113,20 @@ Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 \Urlmuskip=\muskip10
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
+(/usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2013/12/03 3.9h The Babel package
+
+(/usr/share/texlive/texmf-dist/tex/generic/babel-portuges/portuges.ldf
+Language: portuges 2008/03/18 v1.2q Portuguese support from the babel system
+
+(/usr/share/texlive/texmf-dist/tex/generic/babel/babel.def
+File: babel.def 2013/12/03 3.9h Babel common definitions
+\babel@savecnt=\count92
+\U@D=\dimen122
+)
+\l@brazil = a dialect from \language\l@portuges 
+Package babel Info: Making " an active character on input line 145.
+))
 (/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
 Package: inputenc 2008/03/30 v1.1d Input encoding file
 \inpenc@prehook=\toks17
@@ -175,16 +189,16 @@ File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count92
-\scratchdimen=\dimen122
+\scratchcounter=\count93
+\scratchdimen=\dimen123
 \scratchbox=\box27
-\nofMPsegments=\count93
-\nofMParguments=\count94
+\nofMPsegments=\count94
+\nofMParguments=\count95
 \everyMPshowfont=\toks19
-\MPscratchCnt=\count95
-\MPscratchDim=\dimen123
-\MPnumerator=\count96
-\makeMPintoPDFobject=\count97
+\MPscratchCnt=\count96
+\MPscratchDim=\dimen124
+\MPnumerator=\count97
+\makeMPintoPDFobject=\count98
 \everyMPtoPDFconversion=\toks20
 ) (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
 Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
@@ -256,26 +270,14 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <12> not available
 (Font)              Font shape `OT1/ptm/b/it' tried instead on input line 26.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <13> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 34.
-
-Underfull \hbox (badness 2662) in paragraph at lines 38--39
-[]\OT1/ptm/m/n/12 Diversos es-tu-dos na co-mu-nidade abor-dam como pro-mov[]e-l
-a e a pr[]atica
- []
-
-
-Underfull \hbox (badness 2707) in paragraph at lines 38--39
-\OT1/ptm/m/n/12 que mais se destaca at-ual-mente []e a ret-ro-spec-tiva. Se-gun
-do Derby e Larsen
- []
-
-[1
+ [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2]
 <problemasTime.png, id=16, 941.5175pt x 201.75375pt>
 File: problemasTime.png Graphic file (type png)
  <use problemasTime.png>
 Package pdftex.def Info: problemasTime.png used on input line 68.
-(pdftex.def)             Requested size: 341.43437pt x 73.16386pt.
+(pdftex.def)             Requested size: 426.79135pt x 91.45638pt.
 LaTeX Font Info:    Try loading font information for OT1+phv on input line 69.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1phv.fd
@@ -295,27 +297,26 @@ File: retrospectivaValeAPena.png Graphic file (type png)
 
 <use retrospectivaValeAPena.png>
 Package pdftex.def Info: retrospectivaValeAPena.png used on input line 86.
-(pdftex.def)             Requested size: 341.43437pt x 48.99292pt.
- [3 <./problemasTime.png>]
-<problemasRetrospectiva.png, id=25, 972.63374pt x 103.38625pt>
+(pdftex.def)             Requested size: 426.79135pt x 61.24263pt.
+ [3 <./problemasTime.png> <./retrospectiva.png>] <problemasRetrospectiva.png, i
+d=26, 972.63374pt x 103.38625pt>
 File: problemasRetrospectiva.png Graphic file (type png)
 
 <use problemasRetrospectiva.png>
 Package pdftex.def Info: problemasRetrospectiva.png used on input line 101.
-(pdftex.def)             Requested size: 341.43437pt x 36.293pt.
+(pdftex.def)             Requested size: 426.79135pt x 45.36545pt.
 
-<variarRetrospectiva.png, id=26, 1476.51625pt x 237.88875pt>
+<variarRetrospectiva.png, id=27, 1476.51625pt x 237.88875pt>
 File: variarRetrospectiva.png Graphic file (type png)
 
 <use variarRetrospectiva.png>
 Package pdftex.def Info: variarRetrospectiva.png used on input line 108.
-(pdftex.def)             Requested size: 341.43437pt x 55.00728pt.
- [4 <./retrospectiva.png> <./retrospectivaValeAPena.png> <./problemasRetrospect
-iva.png>] [5 <./variarRetrospectiva.png>]
-(./sbc-template.bbl
+(pdftex.def)             Requested size: 426.79135pt x 68.76091pt.
+ [4 <./retrospectivaValeAPena.png> <./problemasRetrospectiva.png> <./variarRetr
+ospectiva.png>] [5] (./sbc-template.bbl
 Underfull \hbox (badness 10000) in paragraph at lines 33--37
-[]\OT1/ptm/m/n/12 Poussaard, P. (2014).  Clas-si-fy-ing ret-ro-spec-tives to ge
-t the
+[]\OT1/ptm/m/n/12 Poussaard, P. (2014).  Clas-sifying re-tros-pec-ti-ves to get
+ the
  []
 
 
@@ -332,43 +333,47 @@ best-[]of-[]it$\OT1/ptm/m/n/12 .
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 39--43
-[]\OT1/ptm/m/n/12 Takeshi, L. and Shibao, M. S. (2015).  Pesquisa e re-spostas 
-so-bre
+[]\OT1/ptm/m/n/12 Takeshi, L. and Shi-bao, M. S. (2015).  Pes-quisa e res-pos-t
+as so-
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 39--43
-\OT1/ptm/m/n/12 mel-ho-ria cont[]A-nua.  $\OT1/pcr/m/n/12 https : / / drive . g
-oogle . com / file / d /
+\OT1/ptm/m/n/12 bre me-lho-ria cont[]^^Pnua.  $\OT1/pcr/m/n/12 https : / / driv
+e . google . com / file / d /
  []
 
-[6]
+
 Underfull \hbox (badness 10000) in paragraph at lines 57--62
 \OT1/pcr/m/n/12 com / pdf / VersionOne-[]10th-[]Annual-[]State-[]of-[]Agile-[]R
 eport . pdf$\OT1/ptm/m/n/12 ,
  []
 
-) [7] (./sbc-template.aux) ) 
+) [6] (./sbc-template.aux)
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ ) 
 Here is how much of TeX's memory you used:
- 2737 strings out of 493304
- 39050 string characters out of 6139872
- 108893 words of memory out of 5000000
- 6141 multiletter control sequences out of 15000+600000
+ 3149 strings out of 493304
+ 44265 string characters out of 6139872
+ 118846 words of memory out of 5000000
+ 6540 multiletter control sequences out of 15000+600000
  21548 words of font info for 46 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 37i,10n,28p,1006b,319s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base
-/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb>
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/
-share/texlive/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/share/texlive
-/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texlive/texmf-dist/
-fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw
-/times/utmbi8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.
-pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on sbc-template.pdf (7 pages, 250433 bytes).
+ 38i,10n,28p,947b,321s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
+e/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/f
+onts/type1/urw/courier/ucrr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/ur
+w/helvetic/uhvb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb
+8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/s
+hare/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/te
+xmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on sbc-template.pdf (6 pages, 249952 bytes).
 PDF statistics:
- 72 PDF objects out of 1000 (max. 8388607)
- 44 compressed objects within 1 object stream
+ 67 PDF objects out of 1000 (max. 8388607)
+ 40 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  26 words of extra memory for PDF output out of 10000 (max. 10000000)
 
